@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, user-scalable=no"> 
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>Frontend eKaizen</title>
+</head>
+<body>
+    <nav class="project-nav">
+        <div class="project-nav-logo">
+            <div class="project-nav-logo-img"><img src="./img/logo.png" alt=""></div>
+            <div class="project-nav-logo-title">Logo</div>
+        </div>
+        <ul class="project-nav-content">
+            <li><a href=""> <i class="fas fa-home"></i> <div>Inicio</div></a></li>
+            <li><a href=""><i class="fas fa-align-left"></i> <div>Conteúdo</div></a></li>
+            <li><a href=""><i class="fas fa-info-circle"></i> <div>Sobre</div></a></li>
+            <li><a href=""><i class="fas fa-sign-in-alt"></i> <div>Login</div></a></li>
+            <li><a href=""><i class="fas fa-user-tie"></i> <div>Administrador</div></a></li>
+        </ul>
+    </nav>
+    <div class="project-banner">
+        <div class="project-banner-info">
+            <div class="project-banner-info-title">
+                Venha conhecer nossos pacotes
+            </div>
+            <div class="project-banner-info-subtitle">
+                Atravesse o mundo em busca das praias com as água mais cristalinas 
+            </div>
+            <div class="project-banner-info-button">
+                <button>Conhecer</button>
+            </div>
+        </div>
+        <div class="project-banner-image">
+            <img src="./img/coqueiro.png" alt="">
+        </div>
+        <section class="project-banner-waves">
+            <div class="project-banner-waves-wave wave1"></div>
+            <div class="project-banner-waves-wave wave2"></div>
+            <div class="project-banner-waves-wave wave3"></div>
+            <div class="project-banner-waves-wave wave4"></div>
+        </section>
+        <div class="project-banner-fill">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#f7d052" fill-opacity="1" d="M0,288L48,282.7C96,277,192,267,288,240C384,213,480,171,576,138.7C672,107,768,85,864,101.3C960,117,1056,171,1152,186.7C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+              </svg>
+        </div>
+        
+    </div>
+    <div class="project-content">
+        <section class="project-content-section"></section>
+        <script>
+            for(let x = 1; x <= 1200; x++){
+                let span = document.createElement('span');
+                document.querySelector('.project-content-section').appendChild(span);
+            }
+        </script>
+    </div>
+    <div class="project-content-plans">
+        <div class="project-content-plans-item">
+            <div class="project-content-plans-item-image"><img src="./img/fnoronha.jpg" alt=""></div>
+            <div class="project-content-plans-item-info">
+                <div class="project-content-plans-item-info-title">Fernando de Noronha - Brasil</div>
+                <div class="project-content-plans-item-info-price"><span>R$</span> <span>1200,00</span> </div>
+            </div>
+            <div class="project-content-plans-item-buy">
+                <a href="">
+                    <span>Ver Mais</span>
+                    <div class="project-content-plans-item-buy-liquid"></div>
+                </a>
+            </div>
+        </div>
+        <div class="project-content-plans-item">
+            <div class="project-content-plans-item-image"><img src="./img/acapulco.jpg" alt=""></div>
+            <div class="project-content-plans-item-info">
+                <div class="project-content-plans-item-info-title">Acapulco - México</div>
+                <div class="project-content-plans-item-info-price"><span>R$</span> <span>2199,00</span> </div>
+            </div>
+            <div class="project-content-plans-item-buy">
+                <a href="">
+                    <span>Ver Mais</span>
+                    <div class="project-content-plans-item-buy-liquid"></div>
+                </a>
+            </div>
+        </div>
+        <div class="project-content-plans-item">
+            <div class="project-content-plans-item-image"><img src="./img/navagio.jpg" alt=""></div>
+            <div class="project-content-plans-item-info">
+                <div class="project-content-plans-item-info-title">Navagio - Grécia</div>
+                <div class="project-content-plans-item-info-price"><span>R$</span> <span>4500,00</span> </div>
+            </div>
+            <div class="project-content-plans-item-buy">
+                <a href="">
+                    <span>Ver Mais</span>
+                    <div class="project-content-plans-item-buy-liquid"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
